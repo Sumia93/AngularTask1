@@ -1,0 +1,52 @@
+nav {
+    background-color: #2c3e50;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nav-link {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 1.5rem;
+}
+
+.nav-link:hover {
+    color: green;
+}
+
+.active {
+    background-color: #1abc9c;
+    color: #fff !important;
+    width: 80%;
+    border-radius: 10px;
+}
+
+section {
+    background-color: #1abc9c;
+    height: 87vh;
+    margin-top: 90px;
+}
+
+section img {
+    width: 240px;
+    height: 255px;
+}
+
+section h2 {
+    color: #fff;
+    margin-top: 3%;
+}

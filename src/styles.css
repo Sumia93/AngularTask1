@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+.decor .line {
+    width: 120px;
+    height: 3px;
+    background-color: #fff;
+}
+
+.decor i {
+    color: #fff;
+    margin: 0 2%;
+}
+
+section article {
+    text-align: center;
+}
+
+section article h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 700;
+}

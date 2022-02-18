@@ -1,0 +1,115 @@
+ img {
+     width: 100%;
+ }
+
+ div.col-lg-4 {
+     position: relative;
+ }
+
+ .overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 1;
+     width: 100% !important;
+     height: 100%;
+     opacity: 0;
+     background-color: rgba(26, 188, 156, 0.9);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ div.col-lg-4:hover .overlay i {
+     color: #fff;
+     font-weight: bold;
+ }
+
+ div.col-lg-4:hover .overlay,
+ div.col-lg-4:hover .overlay i {
+     opacity: .6;
+ }
+
+ .parent {
+     position: relative;
+ }
+
+ .details {
+     position: absolute;
+     top: 0;
+     left: 0;
+ }
+
+ .icon {
+     background-color: transparent;
+     outline: 0;
+     border: 0;
+ }
+
+ .wraper {
+     width: 80%;
+     position: fixed;
+     top: 0%;
+     bottom: 0%;
+     left: 12%;
+     right: 12%;
+     z-index: 1000000;
+     background-color: #fff;
+     border-radius: 15px;
+ }
+
+ .pic img {
+     border-radius: 15px;
+ }
+
+ .close {
+     display: block;
+     margin-bottom: 12%;
+     margin-left: auto;
+     background-color: transparent;
+     border: 0;
+     outline: 0;
+     color: #1ABC9C;
+     font-size: 2rem;
+ }
+
+ .wraper {
+     width: 75%;
+ }
+
+ .another {
+     height: 53vh;
+ }
+
+ .wraper h1 {
+     color: #000;
+ }
+
+ .wraper .line {
+     background: #000;
+ }
+
+ .wraper i {
+     color: #000;
+ }
+
+ .wraper img {
+     width: 50%;
+ }
+
+ .wraper p {
+     font-size: 1.2rem;
+     color: #000;
+ }
+
+ .wraper .either {
+     background-color: #1ABC9C;
+     color: #fff;
+     border-radius: 10px;
+     padding: 1%;
+     border: 0;
+     outline: 0;
+     font-size: 1.2rem;
+     cursor: pointer;
+     margin: 0 auto;
+ }
